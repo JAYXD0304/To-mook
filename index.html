@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>เจขอโทษมุก 💗</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'sans-serif';
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #ff69b4;
+    }
+    #buttons {
+      margin-top: 30px;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    #yesBtn {
+      background-color: #ff4d88;
+      color: white;
+    }
+    #noBtn {
+      background-color: #aaa;
+      color: white;
+    }
+    #message {
+      margin-top: 30px;
+      font-size: 24px;
+      color: #d63384;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>มุกครับ... 🥺</h1>
+  <p>เจขอโทษนะที่ทำให้มุกโกรธ เจผิดไปแล้ว<br>ให้อภัยเจเถอะนะ ง้อๆนะ 💗</p>
+
+  <div id="buttons">
+    <button id="yesBtn" onclick="forgiveMe()">ให้อภัย 💕</button>
+    <button id="noBtn">ไม่ให้อภัย 😤</button>
+  </div>
+
+  <div id="message">ขอบคุณที่ให้อภัยคับ เดี๋ยวเจเลี้ยงขนมนะ 🍰💖</div>
+
+  <script>
+    function forgiveMe() {
+      document.getElementById("buttons").style.display = "none";
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
